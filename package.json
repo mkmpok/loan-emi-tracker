@@ -1,0 +1,31 @@
+{
+  "name": "loan-emi-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "server": "node server/index.js",
+    "client": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "start": "node scripts/start.mjs",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2",
+    "@libsql/client": "^0.18.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.4"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
