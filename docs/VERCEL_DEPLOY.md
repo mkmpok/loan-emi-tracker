@@ -14,18 +14,6 @@ npm run dev
 
 Verify login, member creation, loan creation, EMI schedule, repayment, report, CSV export and foreclosure.
 
-## GitHub
-
-From the folder containing `package.json`:
-
-```bash
-git init
-git add .
-git commit -m "Loan EMI Tracker assignment"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/loan-emi-tracker.git
-git push -u origin main
-```
 
 If the GitHub repository already exists locally, only commit and push the latest changes.
 
